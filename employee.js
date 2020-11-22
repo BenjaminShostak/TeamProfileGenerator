@@ -2,7 +2,7 @@
 const Employee = require("../employee.js");
 
 class Employee  {
-    constructor(name, id , email, getname){
+    constructor(name, id , email){
         this.name = name;
         this.id = id;
         this.email = email;
@@ -18,5 +18,7 @@ class Employee  {
         this.getRole = function(Employee) {
             this.role = Employee; 
         }
-        module.exports = Employee;
+       
+        
 }};
+module.exports = employee;
